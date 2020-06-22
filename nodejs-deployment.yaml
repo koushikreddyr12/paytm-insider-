@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: nodejs-image
-        image: bonomat/nodejs-hello-world:latest
+        image: gcr.io/new-gke-demo/bonomat/nodejs-hello-world:latest
         resources:
           requests:
             cpu: "100m"
